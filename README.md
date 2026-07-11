@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/Ultralytics-YOLOv8-blue" alt="YOLOv8">
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT">
 </p>
 
 PADEL-ANALYZER trasforma un video a **telecamera fissa** di una partita di padel
@@ -211,3 +212,8 @@ padel_analyzer/
 
 **Dario Ojog** — Bachelor in Applied Computer Science and Artificial Intelligence (ACSAI)
 Corso AI-LAB · Sapienza Università di Roma
+
+## 📄 Licenza
+
+Distribuito sotto licenza **MIT** — vedi [LICENSE](LICENSE). Uso, modifica e
+ridistribuzione liberi, mantenendo la nota di copyright.
