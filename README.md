@@ -72,7 +72,7 @@ Per ogni squadra la posizione della coppia è codificata in **3 stati**, mappati
 ## ⚙️ Installazione
 
 ```bash
-git clone https://github.com/<tuo-utente>/padel-analyzer.git
+git clone https://github.com/Darioo04/padel-analyzer.git
 cd padel-analyzer
 pip install -r requirements.txt
 ```
@@ -210,8 +210,7 @@ padel_analyzer/
 
 ## 👤 Autore
 
-**Dario Ojog** — Bachelor in Applied Computer Science and Artificial Intelligence (ACSAI)
-Corso AI-LAB · Sapienza Università di Roma
+**Dario Ojog** — Corso AI-LAB · Sapienza Università di Roma
 
 ## 📄 Licenza
 
