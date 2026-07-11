@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Config locale dell'assistente (non fa parte del progetto)
+# ---------------------------------------------------------------------------
+.claude/
+
+# ---------------------------------------------------------------------------
+# Pesi base YOLO: scaricati automaticamente da Ultralytics al primo avvio
+# ---------------------------------------------------------------------------
+yolov8n.pt
+yolov8m.pt
+
+# ---------------------------------------------------------------------------
+# Video: troppo grandi per il repo (procurarli a parte e metterli in data/)
+#   data/demo.mp4  +  data/match_video*.mp4
+# ---------------------------------------------------------------------------
+*.mp4
+
+# ---------------------------------------------------------------------------
+# Artefatti rigenerabili
+# ---------------------------------------------------------------------------
+data/cache/
+runs/
+runs_ball/
+
+# ---------------------------------------------------------------------------
+# Dataset pallina: si versionano SOLO le annotazioni (labels/*.txt).
+# Immagini ri-estraibili dal video; gli altri file sono rigenerati da
+# src.ball_train (e train/val.txt hanno percorsi assoluti locali).
+# ---------------------------------------------------------------------------
+data/ball_ds/images/
+data/ball_ds/labels.cache
+data/ball_ds/train.txt
+data/ball_ds/val.txt
+data/ball_ds/ball.yaml
+
+# ---------------------------------------------------------------------------
+# Sistema operativo / IDE
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
